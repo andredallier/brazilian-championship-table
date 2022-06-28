@@ -1,0 +1,231 @@
+:root {
+    --gray-100: #cccccc;
+    --gray-200: #dddddd;
+    --navy-blue: #003366;
+    --sky-blue: #1398be;
+    --orange: #de9800;
+    --red: #c91b04;
+}
+
+* {
+    font-family: Arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid var(--gray-200);
+  width: 50%;
+}
+
+table td {
+    width: 6%;
+}
+
+th {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #999999;
+}
+
+tr, td {
+    border-top: 1px solid var(--gray-200);
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.navy-blue-position {
+    color: var(--navy-blue);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 10px;
+    width: 6%;
+}
+
+.sky-blue-position {
+    color: var(--sky-blue);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 10px;
+    width: 6%;
+}
+
+.orange-position {
+    color:var(--orange);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 10px;
+    width: 6%;
+}
+
+.gray-position {
+    color: var(--gray-100);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 10px;
+    width: 6%;
+}
+
+.red-position {
+    color: var(--red);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 10px;
+    width: 6%;
+}
+
+.score {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: #f7f7f7;
+}
+
+
+.team {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #666666;
+    width: 36%;
+}
+
+.team-border {
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 2px solid #cccccc;
+    color: #666666;
+}
+
+.games {
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}
+
+.victory {
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+    background-color: #f7f7f7;
+}
+
+.draw {
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+
+}
+
+.defeat {
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+    background-color: #f7f7f7;
+}
+
+.goalsFor {
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+
+}
+
+.goalsAgainst {
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+    background-color: #f7f7f7;
+
+}
+
+.goalDifference {
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}
+
+.utilization {
+    width: 10%;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+    background-color: #f7f7f7;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 8px 0px;
+}
+
+.championship {
+    font-size: 10px;
+    text-align: left;
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    gap: 8px;
+    color: #8f8f8f;
+}
+
+.content-championship {
+    display: flex;
+    align-items: center;
+}
+
+.abbreviation {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    color: #555555;
+}
+
+.square-navyBlue {
+    width: 10px;
+    height: 10px;
+    background: var(--navy-blue);
+    margin-right: 3px;
+    border-radius: 3px;
+}
+
+.square-skyBlue {
+    width: 10px;
+    height: 10px;
+    background: var(--sky-blue);
+    border-radius: 3px;
+    margin-right: 3px;
+}
+
+.square-orange {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    margin-right: 3px;
+    background: var(--orange);
+
+}
+
+.square-red {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    margin-right: 3px;
+    background: var(--red);
+}
+
